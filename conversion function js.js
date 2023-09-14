@@ -44,12 +44,4 @@ function convertTemperature() {
 
 // Event listener for the "Convert" button
 convertButton.addEventListener("click", convertTemperature);
-// Add these lines at the end of your existing JavaScript code:
 
-// Show the input and output sections when the Convert button is clicked
-convertButton.addEventListener("click", function () {
-    convertTemperature();
-    document.querySelector(".container").classList.add("show");
-    document.querySelector(".input-section").classList.add("show");
-    document.querySelector(".output-section").classList.add("show");
-});
